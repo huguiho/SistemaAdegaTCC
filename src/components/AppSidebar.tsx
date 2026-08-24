@@ -41,7 +41,11 @@ const AppSidebar = () => {
       <div className={`p-4 border-b border-sidebar-border flex items-center ${collapsed ? 'justify-center' : 'justify-between'}`}>
         {!collapsed && (
           <div className="flex items-center gap-3">
-            v
+            <img
+              src={logo}
+              alt="Logo"
+              className="w-7 h-7 object-contain"
+            />
             <h2 className="font-display font-bold text-foreground text-base">Adega<span className="gold-text">PDV</span></h2>
           </div>
         )}
